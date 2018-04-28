@@ -1,0 +1,59 @@
+html {
+	overflow-x: hidden;
+}
+
+#logo {
+	position: relative;
+	display: inline-block;
+	font-family: Vivaldi, cursive;
+	left: 15px;
+	text-align: left;
+}
+
+#contact {
+	position: relative;
+	display: inline-block;
+	font-family: Vivaldi, cursive;
+	right: 20px;
+	float: right;
+}
+
+#name {
+	font-family: Vivaldi, cursive;
+	text-align: center;
+	bottom: 20px;
+	position: relative;
+}
+
+.divider {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFE135;
+	width: 100%;
+}
+
+.link {
+	color: #FFE135; /*Banana yellow*/
+	font-size: 1.25em;
+	font-family: cursive;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #FFE135; /*Banana yellow*/
+	text-shadow: 1px 1px 1px #000033;
+	text-decoration: none;
+}
+
+.box {
+	width: 40px;
+	height: 40px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.cell {
+	width: 40px;
+	height: 40px;
+}
