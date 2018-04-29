@@ -7,4 +7,8 @@ app.config['DEBUG'] = True
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/visualizer')
+def visualizer():
+    return render_template('visualizer.html')
     
