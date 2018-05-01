@@ -13,6 +13,6 @@ def visualizer():
     return render_template('visualizer.html')
 
 @app.route('/openloop')
-def visualizer():
+def openloop():
     return render_template('openloop.html')
     
