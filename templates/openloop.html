@@ -2,34 +2,21 @@
 
 {% block content %}
 
-<h4>Here are some pics of the hyperloop pod:</h4>
-
-<!-- 
-<div class="row" style="text-align:center">
-	<div class="col-sm-4 col-box">
-		<div class="rotateimg90" style="background-image:url('/static/david_openloop.jpg');background-size:cover;width:33%;height:300px;"></div>
+<div style="text-align:center">
+	<h4>Here are some pics of the hyperloop pod:</h4>
+	<div class="container-fluid">
+	<div class="row"> 
+		<div class="col-sm-4 col-box">
+			<img class="rotateimg90" src="/static/david_openloop.jpg" height="400" width="300" align="left">
+		</div>
+		<div class="col-sm-4 col-box">
+			<img class="rotateimg90" src="/static/pod.jpg" height="400" width="300" align="center">
+		</div>
+		<div class="col-sm-4 col-box">
+			<img class="rotateimg90" src="/static/frame_openloop.jpg" height="400" width="300" align="right">
+		</div>
 	</div>
-	<div class="col-sm-4 col-box">
-		<div class="rotateimg90" style="background-image:url('/static/pod.jpg');background-size:cover;width:33%;height:300px;"></div>
 	</div>
-	<div class="col-sm-4 col-box">
-		<div class="rotateimg90" style="background-image:url('/static/frame_openloop.jpg');background-size:cover;width:33%;height:300px;"></div>
-	</div>
-</div>
--->
-
-<div class="container-fluid">
-<div class="row"> 
-	<div class="col-sm-4 col-box">
-		<img class="rotateimg90" src="/static/david_openloop.jpg" height="300" width="400" align="left">
-	</div>
-	<div class="col-sm-4 col-box">
-		<img class="rotateimg90" src="/static/pod.jpg" height="300" width="400" align="center">
-	</div>
-	<div class="col-sm-4 col-box">
-		<img class="rotateimg90" src="/static/frame_openloop.jpg" height="300" width="400" align="right">
-	</div>
-</div>
 </div>
 
 {% endblock %}
