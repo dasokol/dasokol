@@ -11,4 +11,8 @@ def index():
 @app.route('/visualizer')
 def visualizer():
     return render_template('visualizer.html')
+
+@app.route('/openloop')
+def visualizer():
+    return render_template('openloop.html')
     
