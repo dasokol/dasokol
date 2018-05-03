@@ -3,7 +3,13 @@
 {% block content %}
 
 <div style="text-align:center">
-	<h4>Here's what the music visualizer looks like in action:</h4>
+	<h4>
+		An arduino microcontroller inputs a normalized music signal, runs signal processing, then outputs the result to the LEDs.
+		The music visualizer uses a variant of FFT to split the signal into several different frequency bins. 
+		Then it maps the bin values to color combinations on the LED board using a sigmoid-like function.
+		On the board, the left 2 columns represent overall volume and the rest of the columns are left-to-right ascending octaves.
+	</h4>
+	<h4>Here's what it looks like in action:</h4>
 	<video height="400" controls>
 	<source src="/static/visualizer.mp4" type="video/mp4">
 	Your browser does not support the video tag.
