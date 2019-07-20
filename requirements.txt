@@ -9,4 +9,3 @@ itsdangerous==0.24
 matlab==0.1
 requests==2.5.3
 virtualenv==12.0.7
-wsgiref==1.0.1
