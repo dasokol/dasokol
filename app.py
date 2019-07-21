@@ -15,4 +15,11 @@ def visualizer():
 @app.route('/openloop')
 def openloop():
     return render_template('openloop.html')
-    
+
+@app.route('/ai_text_generator')
+def ai_text_generator():
+    return render_template('ai_text_generator.html')
+
+@app.route('/ai_art_generator')
+def ai_art_generator():
+    return render_template('ai_art_generator.html')
