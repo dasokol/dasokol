@@ -45,7 +45,7 @@ def sokol_rss():
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>RSS Feed</title>
-        <link rel="stylesheet" type="text/css" href="/static/style.css">
+        <link rel="stylesheet" type="text/css" href="/static/style_rss.css">
         <link rel="icon" type="image/png" href="https://cdn2.iconfinder.com/data/icons/web2/Icons/Feed_512x512.png">
         <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
